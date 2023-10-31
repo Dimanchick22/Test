@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  zoom: 189%;
+}
+body {
+  flex-direction: column;
+}
+h1 {
+  font-family: serif;
+}
+.box {
+  height: auto;
+  width: 215px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.allbox {
+  width: auto;
+  height: auto;
+}
+.frame {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.frame1 {
+  display: inline-block;
+  width: 210px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+footer {
+  flex-shrink: 0;
+}
+.color1 *:not(.box) {
+  background: rgb(11, 198, 185);
+}
+.color2 *:not(.box) {
+  background: rgb(14, 17, 190);
+}
+.color3 *:not(.box) {
+  background: rgb(148, 11, 198);
+}
+.color4 *:not(.box) {
+  background: rgb(198, 11, 98);
+}
